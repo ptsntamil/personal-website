@@ -90,3 +90,53 @@ article .head {
 .education p {
     margin-bottom: 0px;
 }
+.project {
+    position: relative;
+}
+.company {
+    position: absolute;
+    right: 34px;
+    width: 100px;
+    top: 12px;
+}
+.project p:nth-child(2) {
+    font-size: 18px;
+}
+.div-right article .project:not(:nth-child(2)) {
+    margin-top: 60px;
+}
+.skill .stars div {
+    padding: 3px;
+    background: var(--theme-clr);
+    margin-right: 7%;
+}
+.skill .stars div:last-child {
+    margin-right: 0%; 
+}
+.skill img {
+    margin-bottom: 5px;
+}
+.stars>div:first-child {
+    background: var(--gray-clr);
+}
+.nodejs .stars>div:nth-child(2) {
+    background: var(--gray-clr);
+}
+.skill {
+    margin-bottom: 5px;
+}
+.html img {
+    margin-right: -3px;
+}
+.css img {
+    margin-right: -1px;
+}
+.js img {
+    margin-right: 4px;
+}
+.angular img {
+    margin-right: 3px;
+}
+.nodejs img {
+    margin-right: -8px;
+}
