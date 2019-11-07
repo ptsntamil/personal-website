@@ -144,12 +144,20 @@ article {
     }
   }
 }
-.nodejs {
-  .stars{
-    >div{
+%gray-out-2 {
+  .stars {
+    >div {
       &:nth-child(2) {
         background: var(--gray-clr);
       }
     }
   }
+}
+
+.nodejs {
+  @extend %gray-out-2;
+}
+
+.react {
+  @extend %gray-out-2;
 }
