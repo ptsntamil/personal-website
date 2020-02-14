@@ -92,6 +92,20 @@ article {
   & .row {
     padding: 10px;
   }
+  .picture {
+    background-image: url(../img/Tamilarasan.jpg);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-position: 0 23%;
+    background-size: 108%;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 .theme-clr {
   color: var(--theme-clr);
@@ -160,4 +174,30 @@ article {
 
 .react {
   @extend %gray-out-2;
+}
+.width-35px {
+  width: 35px;
+  height: 35px;
+}
+
+.other-works {
+  li {
+    a {
+      font-size: 16px;
+      color: #607D8B;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.print {
+  position: fixed;
+  top: 28px;
+  right: 27px;
+  & img {
+    width: 30px;
+  }
 }
