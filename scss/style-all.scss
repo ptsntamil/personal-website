@@ -201,3 +201,8 @@ article {
     width: 30px;
   }
 }
+@media print {
+  .print {
+    display: none !important;
+  }
+}
