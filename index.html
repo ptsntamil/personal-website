@@ -34,30 +34,30 @@
     <meta name="twitter:title" content="Tamilarasan Resume" />
     <meta
       name="keywords"
-      content="Tamilarasan, Resume, Front End, Full Stack, Angular, NodeJS, ReactJs, Vue.Js, Software Developer, NodeJS"
+      content="Tamilarasan, Resume, Front End, Full Stack, Angular, NodeJS, Vue.Js, Software Developer, Chennai, HTML, CSS, JavaScript"
     />
     <meta
       name="description"
-      content="Software developer with a passion to learn and leverage modern technologies. 3 Years of 
+      content="Software developer with a passion to learn and leverage modern technologies. 6 Years of
     experience in Front End development in developing complex application with responsive 
     design. Having working experience in latest technologies like Angular, React, Vue and Node JS. Seasoned agile team player with 
     strong adherence to Quality Processes."
     />
     <meta
       name="og:description"
-      content="Software developer with a passion to learn and leverage modern technologies. 3 Years of 
+      content="Software developer with a passion to learn and leverage modern technologies. 6 Years of
     experience in Front End development in developing complex application with responsive 
     design. Having working experience in latest technologies like Angular, React, Vue and Node JS. Seasoned agile team player with 
     strong adherence to Quality Processes."
     />
     <meta
       name="twitter:description"
-      content="Software developer with a passion to learn and leverage modern technologies. 3 Years of 
+      content="Software developer with a passion to learn and leverage modern technologies. 6 Years of
     experience in Front End development in developing complex application with responsive 
     design. Having working experience in latest technologies like Angular, React, Vue and Node JS. Seasoned agile team player with 
     strong adherence to Quality Processes."
     />
-    <meta name="revised" content="Developer, 14/02/2020" />
+    <meta name="revised" content="Developer, 16/02/2022" />
     <meta name="author" content="Tamilarasan" />
     <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
     <meta
@@ -65,7 +65,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>
-      Tamilarasan | Resume | Front End developer | Angular | React | Vue | Node
+      Tamilarasan | Resume | Front End developer | Angufilar | React | Vue | Node
     </title>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
@@ -498,6 +498,18 @@
     </div>
     <footer></footer>
     <!-- <script src="lib/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script> -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+      import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-database.js"
+      import {firebaseConfig} from "./js/config.js";
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      onValue(ref(getDatabase(app)), (snap) => {
+        console.log(snap.val())
+      })
+    </script>
     <script>
       function printFun() {
         window.print();

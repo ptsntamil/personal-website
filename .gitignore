@@ -2,3 +2,4 @@ node_modules
 css/style-css.css
 css/style-css.min.css
 .vscode
+js/config.js
