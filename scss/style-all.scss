@@ -132,6 +132,7 @@ article {
   & p {
     &:nth-child(2) {
       font-size: 18px;
+      text-transform: uppercase;
     }
   }
 }
@@ -199,6 +200,7 @@ article {
   right: 27px;
   & img {
     width: 30px;
+    cursor: pointer;
   }
 }
 @media print {
