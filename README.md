@@ -5,3 +5,6 @@ This is a personal portfolio website.
   - Run *npm install*
   - Run gulp
   - Download firebase configuration from firebase console and paste it in js/config.js. Create new file if needed.
+
+## Deploy into Firebase
+  - Run *firebase deploy*
