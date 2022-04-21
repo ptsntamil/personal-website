@@ -124,9 +124,12 @@ article {
 }
 .company {
   position: absolute;
-  right: 34px;
-  width: 100px;
+  right: 0;
+  width: 50px;
   top: 12px;
+   img {
+     width: 100%;
+   }
 }
 .project {
   & p {
