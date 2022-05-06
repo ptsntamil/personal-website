@@ -4,23 +4,11 @@
   <head-component name="OTHER WORKS"></head-component>
   <ul class="list-unstyled">
     <li v-for="work in works" :key="work.name">
-      <a :href="work.url" target="_blank"
-      >{{work.name}}</a
-      >
-      <img
-          :src="work.icon"
-          :alt="work.name"
-          class="width-35px ml-3"
-      />
+      <a :href="work.url" target="_blank">{{work.name}}</a>
+      <img :src="work.icon"
+           :alt="work.name"
+           class="width-35px ml-3"/>
     </li>
-<!--    <li>-->
-<!--      <a href="https://github-timeline-73042.web.app" target="_blank">Github Timeline</a>-->
-<!--      <img-->
-<!--          src="img/GitHub-Mark-32px.png"-->
-<!--          alt="Github Timeline"-->
-<!--          class="width-35px ml-3"-->
-<!--      />-->
-<!--    </li>-->
   </ul>
 </div>
 </article>

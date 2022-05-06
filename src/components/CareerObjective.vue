@@ -15,7 +15,7 @@ export default {
   data: function () {
     return {
       objective: `Software developer with a passion to learn and leverage modern
-      technologies. 6 Years of experience in Front End development in
+      technologies. ${new Date().getFullYear() - 2016}+ Years of experience in Front End development in
       developing complex application with responsive design. Having
       working experience in latest technologies like Angular, React,
       Vue and Node JS. Seasoned agile team player with strong

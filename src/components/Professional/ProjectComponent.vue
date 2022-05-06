@@ -22,8 +22,7 @@
 export default {
   name: "ProjectComponent",
   props: {
-    project: Object,
-    logo: String
+    project: Object
   },
   computed: {
     getClass() {

@@ -1,7 +1,7 @@
 <template>
   <article class="m-b-50" id="projects">
     <head-component name="PROFESSIONAL EXPERIENCE"></head-component>
-    <project-component v-for="project in projects" :key="project.name" :project="project" :logo="project.company.logo"></project-component>
+    <project-component v-for="project in projects" :key="project.name" :project="project"></project-component>
   </article>
 </template>
 
@@ -15,8 +15,7 @@ export default {
   name: "ProfessionalExperience",
   data: function () {
     return {
-      projects: [],
-      logo: '../src/assets/i2i_logo.png'
+      projects: []
     };
   },
   components: {
