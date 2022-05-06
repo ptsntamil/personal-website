@@ -1,0 +1,121 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "./variables/variables";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap:300,400,500i,900,900i");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.container-fluid {
+  padding: 40px 0px 20px 0px;
+  margin: 20px;
+  width: calc(100% - 40px);
+  border: 2px solid $black;
+}
+
+.div-main {
+  padding: 70px 0px 30px 0px;
+  display: flex;
+}
+
+.div-left {
+  width: 30%;
+  border-right: 3px solid $theme-clr;
+  padding: 0 30px;
+
+  .head {
+    .text.p-20 {
+      padding-right: 20px;
+    }
+  }
+}
+
+.div-right {
+  flex: 1;
+  padding: 0 30px;
+
+  & article {
+    & .head {
+      flex-direction: row;
+    }
+  }
+
+  & .head {
+    & .line {
+      width: 10%;
+    }
+    .text.p-20 {
+      padding-left: 20px;
+    }
+  }
+
+  .project {
+    &:not(:nth-child(2)) {
+      margin-top: 60px;
+    }
+  }
+}
+
+.text-right {
+  text-align: right!important;
+}
+
+.p-r-20 {
+  padding-right: 20px;
+}
+
+.p-l-20 {
+  padding-left: 20px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+.theme-clr {
+  color: $theme-clr;
+}
+
+.gray-clr {
+  color: $gray;
+}
+
+.bg-gray {
+  background: $gray !important;
+}
+
+.width-35px {
+  width: 35px;
+  height: 35px;
+}
+
+.ml-3 {
+  margin-left: 1rem !important;
+}
+
+@media print {
+  .container-fluid {
+    margin: 0;
+    width: 100%;
+  }
+
+  body {
+    font-size: 11px;
+  }
+  .head {
+    font-size: 16px;
+
+    .name span {
+      font-size: 25px;
+    }
+  }
+  .project p {
+    font-size: 14px;
+  }
+}
+@page {
+  size:  auto;
+  margin: 30px;
+}
