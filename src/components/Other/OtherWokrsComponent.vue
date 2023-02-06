@@ -24,6 +24,10 @@ export default  {
   data: function () {
     return {
       works:[{
+        name: "Blog - Fillable PDF",
+        url: "https://medium.com/@ptsntamil/implementing-fillable-pdf-in-web-application-java-angular-e8f71afa1a06",
+        icon: require("@/assets/icons/medium.svg")
+      },{
         name: "FreshDataLabs",
         url: "https://freshdatalabs.com",
         icon: require("@/assets/fdl.png")
