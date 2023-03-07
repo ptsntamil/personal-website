@@ -28,9 +28,9 @@ export default  {
         url: "https://medium.com/@ptsntamil/implementing-fillable-pdf-in-web-application-java-angular-e8f71afa1a06",
         icon: require("@/assets/icons/medium.svg")
       },{
-        name: "FreshDataLabs",
-        url: "https://freshdatalabs.com",
-        icon: require("@/assets/fdl.png")
+        name: "Blog - Browser Extension",
+        url: "https://medium.com/@ptsntamil/data-exchange-in-browser-extension-be241809c26f",
+        icon: require("@/assets/icons/medium.svg")
       }, {
         name: "Github Timeline",
         url: "https://github-timeline-73042.web.app",
@@ -44,6 +44,8 @@ export default  {
 <style lang="scss" scoped>
 .other-works {
   li {
+    padding: 3px 0;
+    
     a {
       font-size: 16px;
       color: #607d8b;
